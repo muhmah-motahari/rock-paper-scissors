@@ -1,12 +1,12 @@
 @font-face{
     font-family: samim;
     font-weight:normal;
-    src:url('../fonts/Samim-FD.ttf');
+    src:url('Samim-FD.ttf');
 }
 @font-face{
     font-family:samim;
     font-weight:bold;
-    src:url('../fonts/Samim-Bold-FD.ttf');
+    src:url('Samim-Bold-FD.ttf');
 }
 *{
     font-family:samim;
