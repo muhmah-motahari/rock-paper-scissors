@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>سنگ، کاغذ، قیچی</title>
+  <link rel="stylesheet" href="assets/style.css"></link>
+  <script src="assets/practise.js" defer></script>
+</head>
+<body>
+  <section class="content-section">
+    <div class="player-point"><span id="player-point"></span></div>
+    <div id="content-section">
+      <div id='game-content' class="result-span">لطفا یکی را انتخاب کن</div>
+      </br>
+      <div id="game-content-result" class="result-span"></div>
+    </div>
+    <div class="computer-point"><span id="computer-point"></span></div>
+  </section>
+  <section class="choice-section">
+    <ul>
+      <li class="left-half">
+        <span id="player-name">&nbsp</span>
+        <div class="player_choice">
+          <!-- <button id="start-game-btn">Start Game!</button> -->
+          <div class="rock-div">
+            <button id ="rock-btn">
+              <img src="images/rock.jpg"/>
+            </button>
+          </div>
+          <div class='paper-div'>
+            <button id ="paper-btn">
+              <img src="images/paper.jpg"/>
+            </button>
+          </div>
+          <div class="scissors-div">
+            <button id ="scissors-btn">
+              <img src="images/scissors.jpg"/>
+            </button>
+          </div>
+        </div>
+      </li> 
+      <li class="right-half">
+        <span id="computer-name">کامپیوتر</span>
+        <div class="computer_choice">
+          <div>
+            <button>
+              <img src="images/rock.jpg" id="rock-computer"/>
+            </button>
+          </div>
+          <div>
+            <button>
+              <img src="images/paper.jpg" id ="paper-computer"/>
+            </button>
+          </div>
+          <div>
+            <button>
+               <img src="images/scissors.jpg" id ="scissors-computer"/>
+             </button>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <div class="button-playagain">
+      <button id="play-again-button">شروع بازی</button>
+    </div>
+  </section>
+</body>
+</html>
